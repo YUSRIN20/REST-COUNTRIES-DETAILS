@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 // Fetch data from the REST countries API
 let fetchcall = fetch("https://restcountries.com/v3.1/all")
     .then((res) => res.json())
@@ -198,3 +200,4 @@ async function getWeather(country) {
     let response = await weatherOBJ.json();
     return response;
 }
+});

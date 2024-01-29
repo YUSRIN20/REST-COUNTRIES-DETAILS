@@ -6,6 +6,11 @@
 
 This web application provides detailed information about various countries, including their name, capital, region, population, and country code. Additionally, the app allows users to fetch and display real-time weather information for each country. The project is implemented using HTML, CSS, JavaScript, and Bootstrap for a responsive and user-friendly design.
 
+## Live Demo
+
+Check out the live demo: [Weather and Country Information Web App](https://rest-countries-data-demo.netlify.app/)
+
+
 ## Features:
 
 ### Country Information:
