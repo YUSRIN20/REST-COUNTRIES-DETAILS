@@ -1,16 +1,28 @@
+*{
+    color: white;
+}
+.container{
+    border: 15px double black;
+}
+#Top-heading{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 1em;
+}
 #image-s{
     padding: 2em 1em;
 }
 
 #bg-color{
    
-    background-color: orange;
+    background-color: rgba(4, 2, 57, 0.91);
     
 }
+
 #title{
-    background-color: black;
+
     color: white;
-    border-radius:5px 5px 0px 0px;
+    /* border-radius:5px 5px 0px 0px; */
 }
 
 .popupoverlay{
@@ -18,21 +30,36 @@
     opacity: 0.8;
     position: absolute;
     width: 100%;
-    height: 7000%;
+    height: 6950%;
     top: 0;
     left: 0;
     z-index: 1;
     display: none;
 }
 .popupbox{
+  
     display: none;
     background-color:#fd6569;
     width: auto;
     padding: 40px;
     border-radius:10px;
+    top:50%;
     position: absolute;
-    top:20%;
-    left: 40%;
     z-index: 2;
+    h1{
+        color: black;
+    }
+    h3{
+        color: black;
+    }
   
+}
+/* 
+#country-heading{
+    text-decoration: underline;
+} */
+#back-btn{
+    padding: 0.5em 2em;
+    font-size: large;
+    margin-top: 1em;
 }
