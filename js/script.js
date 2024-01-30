@@ -23,15 +23,15 @@ let fetchcall = fetch("https://restcountries.com/v3.1/all")
 
         // Create a section for country cards
         const rowdiv = containerdiv.appendChild(document.createElement("div"));
-        rowdiv.className = "row ";
+        rowdiv.className = "row";
 
         // Create a column div within the row for better layout
         const coldiv = rowdiv.appendChild(document.createElement("div"));
-        coldiv.className = "col-lg-12 col-sm-12";
+        coldiv.className = "col-lg-12 col-sm-12";    // not needed 
 
         // Create a flex row div within the column for individual country cards
         const flexrowdiv = coldiv.appendChild(document.createElement("div"));
-        flexrowdiv.className = "row ";
+        flexrowdiv.className = "row";
 
         // Loop through the data to create cards for each country
         for (let i = 0; i < alldata.length; i++) {
