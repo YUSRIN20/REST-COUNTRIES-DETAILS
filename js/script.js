@@ -185,7 +185,7 @@ let fetchcall = fetch("https://restcountries.com/v3.1/all")
                     } catch (err) {
                         console.error("Error fetching weather information:", err);
                     }
-                }, 2000); // Timeout ends
+                }, 500); // Timeout ends
             });
         } // Loop ends
     });
